@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB4105-GF-A-120")(type "KiCad")(uri "D:/Seafile/My Library/Master/IoF-v26-Design-Files/Symbols/USB4105-GF-A-120.kicad_sym")(options "")(descr ""))
+  (lib (name "SON_0X-T1-GE3")(type "KiCad")(uri "D:/Seafile/My Library/Master/IoF-v26-Design-Files/Symbols/SON_0X-T1-GE3.kicad_sym")(options "")(descr ""))
+)

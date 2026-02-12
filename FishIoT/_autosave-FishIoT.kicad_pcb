@@ -13033,7 +13033,7 @@
 	(footprint "FishIoT_Footprint_library:Fishlogo"
 		(layer "F.Cu")
 		(uuid "8cdddeaa-b468-4007-88a0-12b293ca5d69")
-		(at 112 57.25)
+		(at 112 56.8)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -28802,7 +28802,7 @@
 		)
 	)
 	(gr_text "IoF"
-		(at 109.789607 61.6696 0)
+		(at 109.789607 61.2196 0)
 		(layer "F.SilkS")
 		(uuid "33527ae7-11bb-4e06-8374-52364c20a985")
 		(effects
