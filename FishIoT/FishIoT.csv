@@ -1,66 +1,59 @@
-Comment,Designator,Footprint,LCSC Part #
-P822601 ,ANT1,ANT_P822601,
-N.C. Unpolarized capacitor,"C1,C2,C3",C_0603_1608Metric,
-3.5pF Unpolarized capacitor,C4,C_0603_1608Metric,
-1u Unpolarized capacitor,"C5,C6,C8",C_0603_1608Metric,
-PCH1E101MCL4GS Polarized capacitor,C7,CP_Elec_6.3x7.7,
-100nF Unpolarized capacitor,"C9,C12,C13,C20",C_0603_1608Metric,
-100pF Unpolarized capacitor,"C10,C11",C_0603_1608Metric,
-4.7uF Unpolarized capacitor,"C14,C15",C_0603_1608Metric,
-100n Unpolarized capacitor,"C16,C18,C22,C25,C28,C31,C33",C_0603_1608Metric,
-15p Unpolarized capacitor,"C17,C23",C_0603_1608Metric,
-47uF Unpolarized capacitor,C19,C_0603_1608Metric,
-47u Unpolarized capacitor,C21,C_0603_1608Metric,
-10u Unpolarized capacitor,C24,C_0603_1608Metric,
-22u Unpolarized capacitor,C26,C_0603_1608Metric,
-1.8p Unpolarized capacitor,C27,C_0603_1608Metric,
-4.7u Unpolarized capacitor,"C29,C30",C_0603_1608Metric,
-0.1u Unpolarized capacitor,C32,C_0603_1608Metric,
-GREEN_LED Light emitting diode,D1,LED_0603_1608Metric,
-LED Light emitting diode,"D2,D3,D4,D5",LED_0603_1608Metric,
-1SS390SMFHT2R Diode,D6,D_SOD-523,
-120R/070A Ferrite bead,FB1,L_0603_1608Metric,
-BLM18EG601SZ1D Ferrite bead,FB2,L_0603_1608Metric,
-MountingHole_Pad Mounting Hole with connection,"H1,H2",MountingHole_3mm_Pad_Via,
-RV-3032-C7_32.768KHZ-2.5PPM-TA-QC Real-Time Clock Module with I2C-Bus    RV-3032-C7,IC1,RV3032C7,
-"VDD_JUMPER Generic connector, single row, 01x03, script generated",J1,PinHeader_1x03_P2.54mm_Vertical,
-"0705430001 Generic connector, single row, 01x02, script generated",J2,MOLEX_0705430001,
-SF72S006VBDR2500 ,J3,JAE_SF72S006VBDR2500,
-"SHF-105-01-L-D-SM 10 Position, Dual - Row, Shrouded Terminal Strip, 0.050&quot; pitch",J4,SHF-105-01-X-D-SM,
-10119313-302TLF USB Type B connector,J5,AMPHENOL_10119313-302TLF,
-"BM05B-ZESS-TBT Generic connector, single row, 01x05, script generated",J8,BM05BZESSTBTLFSN,
-"Conn_Coaxial coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",J9,LINX_CONUFL001-SMD-T,
-"RM_UART Generic connector, single row, 01x03, script generated",J10,PinHeader_1x03_P2.54mm_Vertical,
-"Current Measurement Generic connector, single row, 01x02, script generated",J11,PinHeader_1x02_P2.54mm_Horizontal,
-"UART_DEBUG Generic connector, single row, 01x03, script generated",J13,PinHeader_1x03_P2.54mm_Vertical,
-1.5nH Inductor,L1,L_0603_1608Metric,
-22nH Inductor,L2,L_0603_1608Metric,
-9.1nH Inductor,L5,L_0603_1608Metric,
-LPS3015-222MRB Inductor,L6,L_Vishay_IHLP-1212,
-0R Resistor,R1,R_0603_1608Metric,
-1M0 Resistor,R2,R_0603_1608Metric,
-1k Resistor,"R3,R11,R14,R15",R_0603_1608Metric,
-10k Resistor,"R4,R28,R34,R35",R_0603_1608Metric,
-180 Resistor,R5,R_0603_1608Metric,
-100 Resistor,"R6,R37",R_0603_1608Metric,
-1M2 Resistor,R7,R_0603_1608Metric,
-240k Resistor,"R8,R25",R_0603_1608Metric,
-15 Resistor,"R9,R10",R_0603_1608Metric,
-22.1k Resistor,R12,R_0603_1608Metric,
-47.5k Resistor,R13,R_0603_1608Metric,
-120 Resistor,"R20,R21,R22,R23,R36",R_0603_1608Metric,
-3k Resistor,R24,R_0603_1608Metric,
-100k Resistor,"R26,R31,R33",R_0603_1608Metric,
-0 Resistor,"R27,R32",R_0603_1608Metric,
-4.7k Resistor,"R29,R30",R_0603_1608Metric,
-"PTS645SM43SMTR92 LF Push button switch, generic, two pins","SW1,SW2,SW3",SW_Push_1P1T_NO_6x6mm_H9.5mm,
-TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15",TestPoint_Pad_D1.0mm,
-NRF9160-SICA ,U1,XCVR_NRF9160-SICA,
-SKY65943-11 ,U2,IC_SKY65943-11,
-TPD3F303DPVR ,U3,SON50P210X160X65-9N,
-"TPS63000 Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10",U4,Texas_DRC0010J_ThermalVias,
-"USBLC6-2P6 Very low capacitance ESD protection diode, 2 data-line, SOT-666",U5,SOT-666,
-"CP2102N-Axx-xQFN20 USB to UART master bridge, QFN-20",U6,SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,
-NX3020NAKV ,"U7,U8",SOT-666,
-"MAX3471 True RS-485/RS-422, 0.25Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8",U9,TSSOP-8_3x3mm_P0.65mm,
-RM126x ,U10,"Laird, RM126X",
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1,C2,C21,C22,C23","5","1u","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C3,C6,C19,C26","4","10u","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C4,C5,C9,C12,C20","5","100n","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C7","1","4.7uF","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C8,C11","2","4.7u","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C10,C15","2","100nF","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C13,C14","2","0.1u","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C16","1","TBD","","Excluded from BOM","","Capacitor_SMD:C_0603_1608Metric","~"
+"C17","1","10nF","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C18","1","PCH1E101MCL4GS","","","","Capacitor_SMD:CP_Elec_6.3x7.7","~"
+"C24","1","1.8p","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C25","1","22u","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"D+1,D-1,GPIO_P.016,GPIO_P.024,GPIO_P.025,LNA_EN1,RS_A1,RS_B1,SCL1,SDA1,SWDCLK1,SWDIO1,UART_RX1,UART_TX1,Vbat1,Vgpio1,Vin1,Vout1","18","TestPoint","","","","TestPoint:TestPoint_Pad_D1.0mm","~"
+"D1,D2,D3,D4","4","LED","","","","LED_SMD:LED_0603_1608Metric","~"
+"D5","1","GREEN_LED","","","","LED_SMD:LED_0603_1608Metric","~"
+"D7","1","1SS390SMFHT2R","","","","Diode_SMD:D_SOD-523","~"
+"FB1","1","120R/070A","","","","Inductor_SMD:L_0603_1608Metric","~"
+"FB2","1","BLM18EG601SZ1D","","","","Inductor_SMD:L_0603_1608Metric","~"
+"H1,H2","2","MountingHole_Pad","","","","MountingHole:MountingHole_3mm_Pad_Via","~"
+"IC1","1","RV-3032-C7_32.768KHZ-2.5PPM-TA-QC","","","","FishIoT_Footprint_library:RV3032C7","https://g.componentsearchengine.com/Datasheets/0/13169570.pdf"
+"J1","1","USB4105-GF-A-120","","","","Footprints:GCT_USB4105-GF-A-120",""
+"J3,J6","2","Conn_Coaxial","","","","Footprints:LINX_CONUFL001-SMD-T","~"
+"J4","1","BM05B-ZESS-TBT","","","","Footprints:BM05BZESSTBTLFSN","~"
+"J5","1","SF72S006VBDR2500","","","","Footprints:JAE_SF72S006VBDR2500",""
+"J7","1","SHF-105-01-L-D-SM","","","","Footprints:SHF-105-01-X-D-SM","http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt.pdf"
+"J8","1","0705430001","","","","Footprints:MOLEX_0705430001","~"
+"JP1,JP2","2","SolderJumper_2_Open","","Excluded from BOM","","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","~"
+"JP3","1","Current Measurement","","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
+"JP4","1","VDD_JUMPER","","","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
+"L1","1","TBD","","Excluded from BOM","","Inductor_SMD:L_0603_1608Metric","~"
+"L2","1","27nH","","","","Inductor_SMD:L_0603_1608Metric","~"
+"L3","1","LPS3015-222MRB","","","","Inductor_SMD:L_Vishay_IHLP-1212","~"
+"R1,R3","2","5.1k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R2,R7,R31,R32","4","1k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R4,R13,R20,R21,R22,R23","6","120","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R5,R14,R15,R29,R37","5","10k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R6,R10","2","15","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R8","1","22.1k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R9","1","47.5k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R11,R12","2","4.7k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R16","1","0","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R17,R27,R28,R30","4","100k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R18","1","10","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R19","1","3k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R25","1","100","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R26","1","240k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R33","1","1M2","","","","Resistor_SMD:R_0603_1608Metric","~"
+"R34","1","215k","","","","Resistor_SMD:R_0603_1608Metric","~"
+"SW1,SW2,SW3","3","PTS645SM43SMTR92 LF","","","","Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm","~"
+"U1","1","USBLC6-2P6","","","","Package_TO_SOT_SMD:SOT-666","https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+"U2","1","NRF9151-LACA-R7","","","","NRF9151_LACA_R7:XCVR_NRF9151-LACA-R7",""
+"U3","1","CP2102N-Axx-xQFN20","","","","Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
+"U4","1","MAX-M10S","","","","RF_GPS:ublox_MAX","https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
+"U5","1","TPD3F303DPVR","","","","Footprints:SON50P210X160X65-9N",""
+"U6","1","MAX3471","","","","Package_SO:TSSOP-8_3x3mm_P0.65mm","https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf"
+"U7","1","SI1040X-T1-GE3","","","","Footprints:SON_0X-T1-GE3_VIS","https://www.vishay.com/doc?71809"
+"U8","1","TPS63000","","","","Package_SON:Texas_DRC0010J_ThermalVias","http://www.ti.com/lit/ds/symlink/tps63000.pdf"
+"U9","1","RM126x","","","","FishIoT_Footprint_library:Laird, RM126X",""
