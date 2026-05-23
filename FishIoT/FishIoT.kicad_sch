@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "IoF (Internet of Fish) nRF9151 board")
-		(date "2026-02-01")
+		(date "2026-05-23")
 		(rev "version 26.0")
 		(company "NTNU")
 		(comment 1 "Designed by William Hammer")
@@ -18665,7 +18665,7 @@
 		)
 		(uuid "9f4bbef3-1986-4c6c-ab13-bf04921582d3")
 	)
-	(text "VDD selector and Buck-Boost converter"
+	(text "VDD selector and Buck-Boost regulator"
 		(exclude_from_sim no)
 		(at 409.956 20.066 0)
 		(effects
@@ -18677,17 +18677,6 @@
 			(justify left bottom)
 		)
 		(uuid "a48aeaa5-a95d-4398-9361-3ab7a4be555b")
-	)
-	(text "COEX2 is high when LTE, \nGPS or NR+ is active\n\n\n"
-		(exclude_from_sim no)
-		(at 74.93 111.506 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b403e045-29c0-430f-9c58-ad267ec70c04")
 	)
 	(text "USB-C to UART\n"
 		(exclude_from_sim no)
@@ -19744,6 +19733,10 @@
 	(no_connect
 		(at 196.85 360.68)
 		(uuid "eb42f9e2-2e3a-4066-8bc6-b233561f92fe")
+	)
+	(no_connect
+		(at 236.22 67.31)
+		(uuid "ee6248ad-675b-41b5-8933-7a390f377038")
 	)
 	(no_connect
 		(at 144.78 54.61)
@@ -23451,7 +23444,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 120.65) (xy 69.85 120.65)
+			(xy 64.77 120.65) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -24271,7 +24264,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 93.98 120.65)
+			(xy 73.66 120.65) (xy 93.98 120.65)
 		)
 		(stroke
 			(width 0)
@@ -24509,7 +24502,7 @@
 		)
 		(uuid "2ebb6cb9-389e-4b1f-8c56-d65c8abda818")
 	)
-	(label "nRF_UART_RX"
+	(label "USBC_UART_RX"
 		(at 152.4 100.33 0)
 		(effects
 			(font
@@ -24569,7 +24562,7 @@
 		)
 		(uuid "3c2761d2-d5a8-43a8-832a-649d91ca58dd")
 	)
-	(label "UART1_RX"
+	(label "GNSS_UART_RX"
 		(at 281.94 133.35 180)
 		(effects
 			(font
@@ -24739,7 +24732,7 @@
 		)
 		(uuid "68692ed4-0b66-4346-a09c-085acc989ef0")
 	)
-	(label "UART1_TX"
+	(label "GNSS_UART_TX"
 		(at 281.94 135.89 180)
 		(effects
 			(font
@@ -24769,7 +24762,7 @@
 		)
 		(uuid "717c88c5-1fc1-4fbd-9067-4aed6aa3beeb")
 	)
-	(label "nRF_UART_RX"
+	(label "USBC_UART_RX"
 		(at 201.93 337.82 0)
 		(effects
 			(font
@@ -24959,7 +24952,7 @@
 		)
 		(uuid "a2be36a5-1ce1-40ec-97d8-27f7a7ce0b5c")
 	)
-	(label "nRF_UART_TX"
+	(label "USBC_UART_TX"
 		(at 201.93 340.36 0)
 		(effects
 			(font
@@ -25169,7 +25162,7 @@
 		)
 		(uuid "ea807581-7e83-43ce-9e38-78108916c4fc")
 	)
-	(label "UART1_TX"
+	(label "GNSS_UART_TX"
 		(at 86.36 125.73 180)
 		(effects
 			(font
@@ -25219,7 +25212,7 @@
 		)
 		(uuid "f83a72ce-3f1e-4ab4-86b4-b9026ccd1681")
 	)
-	(label "nRF_UART_TX"
+	(label "USBC_UART_TX"
 		(at 152.4 102.87 0)
 		(effects
 			(font
@@ -25249,7 +25242,7 @@
 		)
 		(uuid "fca51780-999f-42e0-bab4-4925dc5bee56")
 	)
-	(label "UART1_RX"
+	(label "GNSS_UART_RX"
 		(at 86.36 123.19 180)
 		(effects
 			(font
@@ -25795,7 +25788,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 73.66 120.65 180)
+		(at 69.85 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25803,7 +25796,7 @@
 		(dnp no)
 		(uuid "0e8d04f1-bb5c-424d-a608-1ae05495bbe1")
 		(property "Reference" "JP2"
-			(at 73.66 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25811,7 +25804,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 73.66 122.428 0)
+			(at 69.85 122.428 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -25820,7 +25813,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 73.66 120.65 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25829,7 +25822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 120.65 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25838,7 +25831,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 73.66 120.65 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29477,7 +29470,7 @@
 		(dnp no)
 		(uuid "496e8225-c15d-4e42-bd08-1218e7db4bec")
 		(property "Reference" "C4"
-			(at 62.23 55.88 90)
+			(at 64.262 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29485,7 +29478,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 67.31 54.61 90)
+			(at 67.31 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31401,7 +31394,7 @@
 		(fields_autoplaced yes)
 		(uuid "622a4952-d29b-4a9d-81aa-e88962f97c8c")
 		(property "Reference" "U3"
-			(at 186.3441 388.62 0)
+			(at 186.2933 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31410,7 +31403,7 @@
 			)
 		)
 		(property "Value" "CP2102N-Axx-xQFN20"
-			(at 186.3441 391.16 0)
+			(at 186.2933 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32924,7 +32917,7 @@
 		(dnp no)
 		(uuid "7a8af3a4-7673-4a02-8302-2e408cd0c7e8")
 		(property "Reference" "R2"
-			(at 67.31 62.23 90)
+			(at 65.278 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32932,7 +32925,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 67.31 67.31 90)
+			(at 68.834 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
