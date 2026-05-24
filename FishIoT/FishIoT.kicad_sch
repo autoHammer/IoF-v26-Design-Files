@@ -7,7 +7,7 @@
 	(title_block
 		(title "IoF (Internet of Fish) nRF9151 board")
 		(date "2026-05-23")
-		(rev "version 26.0")
+		(rev "version 26.1")
 		(company "NTNU")
 		(comment 1 "Designed by William Hammer")
 	)
@@ -19179,7 +19179,7 @@
 		(uuid "722316cb-ae81-4e4b-87eb-635fbdb981e8")
 	)
 	(junction
-		(at 181.61 46.99)
+		(at 191.77 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72f85a83-a69c-4f47-87ab-02dbb82e2c65")
@@ -19437,7 +19437,7 @@
 		(uuid "d3f4db81-38da-492b-9dfe-7c10681c86bc")
 	)
 	(junction
-		(at 168.91 46.99)
+		(at 179.07 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d430a0f3-05fe-4cf9-81a6-fbffc0ea58bc")
@@ -19587,20 +19587,12 @@
 		(uuid "126080d5-63e7-4648-9ac5-a7dcd126b3e6")
 	)
 	(no_connect
-		(at 144.78 57.15)
-		(uuid "22c707d6-3a89-402e-bda6-8ab72a677c46")
-	)
-	(no_connect
 		(at 93.98 110.49)
 		(uuid "3a903d9e-b902-4983-b1cf-cd3d10d1ba58")
 	)
 	(no_connect
 		(at 93.98 107.95)
 		(uuid "3e8930b1-16ea-47cf-93b9-0c9a5131e84a")
-	)
-	(no_connect
-		(at 284.48 143.51)
-		(uuid "3feec700-d29e-4594-949d-5d77841d50e7")
 	)
 	(no_connect
 		(at 294.64 228.6)
@@ -19687,8 +19679,8 @@
 		(uuid "9eb99afe-8cb6-42a7-8cab-433540b2cee3")
 	)
 	(no_connect
-		(at 284.48 140.97)
-		(uuid "a8b85de0-ada9-456b-9f6e-987afa3d3847")
+		(at 284.48 133.35)
+		(uuid "a85d069d-36c6-4b50-8d00-65993bfa2197")
 	)
 	(no_connect
 		(at 506.73 234.95)
@@ -19721,6 +19713,10 @@
 	(no_connect
 		(at 93.98 102.87)
 		(uuid "e0d773ab-44cb-41c8-abca-190d246ba85f")
+	)
+	(no_connect
+		(at 284.48 135.89)
+		(uuid "e130bcbc-e74e-4bb3-a0ed-cf06bdc34131")
 	)
 	(no_connect
 		(at 294.64 251.46)
@@ -20624,16 +20620,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 135.89) (xy 284.48 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec46b80-ce7d-4451-ae85-9d20f8532e50")
-	)
-	(wire
-		(pts
 			(xy 519.43 313.69) (xy 535.94 313.69)
 		)
 		(stroke
@@ -20811,6 +20797,16 @@
 			(type default)
 		)
 		(uuid "3bf34aea-9038-4c35-91ec-2abde3e0f6b2")
+	)
+	(wire
+		(pts
+			(xy 144.78 133.35) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfbdf7e-94c1-491c-a6de-67fe6b2a9fef")
 	)
 	(wire
 		(pts
@@ -21014,6 +21010,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e38a3d-ad9a-4fa1-a1a2-27647ffa8ac8")
+	)
+	(wire
+		(pts
 			(xy 430.53 204.47) (xy 430.53 214.63)
 		)
 		(stroke
@@ -21124,7 +21130,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 181.61 46.99)
+			(xy 191.77 48.26) (xy 191.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -21251,16 +21257,6 @@
 			(type default)
 		)
 		(uuid "52016284-0655-428d-9afb-8133c637fca0")
-	)
-	(wire
-		(pts
-			(xy 144.78 46.99) (xy 168.91 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52319ef9-c6e5-49ef-8541-b96f160582ee")
 	)
 	(wire
 		(pts
@@ -21434,6 +21430,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 143.51) (xy 284.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591e1aa8-efd3-4428-8952-b70d7c292e29")
+	)
+	(wire
+		(pts
 			(xy 516.89 119.38) (xy 518.16 119.38)
 		)
 		(stroke
@@ -21464,7 +21470,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 46.99) (xy 168.91 48.26)
+			(xy 179.07 46.99) (xy 179.07 48.26)
 		)
 		(stroke
 			(width 0)
@@ -21511,6 +21517,16 @@
 			(type default)
 		)
 		(uuid "5d7bd2a7-4906-4146-82d4-e8e8f13b1fcc")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db478c7-d269-480a-af82-702a4ee8be90")
 	)
 	(wire
 		(pts
@@ -22064,7 +22080,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 44.45) (xy 181.61 46.99)
+			(xy 191.77 44.45) (xy 191.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -22434,16 +22450,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 133.35) (xy 284.48 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92127ad7-3a6e-4fda-b14d-3cda98f30bd7")
-	)
-	(wire
-		(pts
 			(xy 161.29 199.39) (xy 182.88 199.39)
 		)
 		(stroke
@@ -22561,6 +22567,16 @@
 			(type default)
 		)
 		(uuid "9abfcc82-8bc3-401e-a93a-833ae80fc572")
+	)
+	(wire
+		(pts
+			(xy 144.78 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeb0437-762f-49e5-ba9c-d44f2d660921")
 	)
 	(wire
 		(pts
@@ -22904,6 +22920,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 54.61) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c884c1-8e9e-4f25-803d-640c9bc27c3a")
+	)
+	(wire
+		(pts
 			(xy 74.93 193.04) (xy 74.93 199.39)
 		)
 		(stroke
@@ -23084,6 +23110,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 140.97) (xy 284.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2049187-7477-4115-ab8c-de373fba80e8")
+	)
+	(wire
+		(pts
 			(xy 246.38 92.71) (xy 246.38 95.25)
 		)
 		(stroke
@@ -23174,6 +23210,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 57.15) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fb8841-c999-46ad-b1c8-52c1999eed99")
+	)
+	(wire
+		(pts
 			(xy 506.73 224.79) (xy 501.65 224.79)
 		)
 		(stroke
@@ -23184,7 +23230,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 172.72 67.31)
+			(xy 147.32 62.23) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
@@ -23224,7 +23270,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 62.23) (xy 172.72 62.23)
+			(xy 144.78 62.23) (xy 147.32 62.23)
 		)
 		(stroke
 			(width 0)
@@ -23351,6 +23397,16 @@
 			(type default)
 		)
 		(uuid "c30f8cb8-185c-4475-8106-6932a063627d")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31f8671-70c0-4615-bda4-a374cf7a60d2")
 	)
 	(wire
 		(pts
@@ -23814,7 +23870,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 46.99) (xy 181.61 46.99)
+			(xy 179.07 46.99) (xy 191.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -23931,16 +23987,6 @@
 			(type default)
 		)
 		(uuid "e438d731-2e1e-4d9f-91c1-e7c02732551f")
-	)
-	(wire
-		(pts
-			(xy 144.78 133.35) (xy 152.4 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e492a17b-ca9c-4f10-9c58-f18d4ba3f806")
 	)
 	(wire
 		(pts
@@ -24324,6 +24370,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 54.61) (xy 162.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd28fc4-ec36-493d-9917-3ca0d0c9cfb0")
+	)
+	(wire
+		(pts
 			(xy 542.29 290.83) (xy 542.29 292.1)
 		)
 		(stroke
@@ -24343,7 +24399,7 @@
 		(uuid "00071ad1-a0aa-4a94-9c35-3103a609e189")
 	)
 	(label "VDD_GPIO"
-		(at 152.4 46.99 0)
+		(at 162.56 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24562,8 +24618,8 @@
 		)
 		(uuid "3c2761d2-d5a8-43a8-832a-649d91ca58dd")
 	)
-	(label "GNSS_UART_RX"
-		(at 281.94 133.35 180)
+	(label "GNSS_SDA"
+		(at 281.94 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24732,8 +24788,8 @@
 		)
 		(uuid "68692ed4-0b66-4346-a09c-085acc989ef0")
 	)
-	(label "GNSS_UART_TX"
-		(at 281.94 135.89 180)
+	(label "GNSS_SCL"
+		(at 281.94 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25162,7 +25218,7 @@
 		)
 		(uuid "ea807581-7e83-43ce-9e38-78108916c4fc")
 	)
-	(label "GNSS_UART_TX"
+	(label "GNSS_SCL"
 		(at 86.36 125.73 180)
 		(effects
 			(font
@@ -25173,7 +25229,7 @@
 		(uuid "eb686854-65ab-4e7b-90a3-6c08a545862c")
 	)
 	(label "Battery_voltage"
-		(at 152.4 133.35 0)
+		(at 152.4 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25242,7 +25298,7 @@
 		)
 		(uuid "fca51780-999f-42e0-bab4-4925dc5bee56")
 	)
-	(label "GNSS_UART_RX"
+	(label "GNSS_SDA"
 		(at 86.36 123.19 180)
 		(effects
 			(font
@@ -25589,7 +25645,7 @@
 	(symbol
 		(lib_name "GND_26")
 		(lib_id "power:GND")
-		(at 168.91 55.88 0)
+		(at 179.07 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25597,7 +25653,7 @@
 		(dnp no)
 		(uuid "064c9a89-cbe6-43b5-8507-6f5cb49c736a")
 		(property "Reference" "#PWR021"
-			(at 168.91 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25606,7 +25662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 59.69 0)
+			(at 179.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25614,7 +25670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25623,7 +25679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25632,7 +25688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26443,6 +26499,72 @@
 			(project "FishIoT"
 				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17ef6209-e254-4d9e-bb1e-b5dec73d5538")
+		(property "Reference" "GPIO_P0.30"
+			(at 173.482 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.482 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 168.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a3748e3-0a6d-41e7-9123-f62bf05ae02e")
+		)
+		(instances
+			(project "FishIoT"
+				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
+					(reference "GPIO_P0.30")
 					(unit 1)
 				)
 			)
@@ -27625,6 +27747,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27738d9a-477b-45f1-bc60-b70e0734f685")
+		(property "Reference" "GPIO_P0.31"
+			(at 173.482 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.482 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bff47f47-8a5a-4989-9a2c-bf0da1640c6a")
+		)
+		(instances
+			(project "FishIoT"
+				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
+					(reference "GPIO_P0.31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 426.72 334.01 0)
 		(unit 1)
@@ -28229,7 +28417,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 181.61 46.99 270)
+		(at 191.77 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28237,7 +28425,7 @@
 		(dnp no)
 		(uuid "34279765-9578-45a2-8b6c-df363d65cdf8")
 		(property "Reference" "Vgpio1"
-			(at 186.69 46.99 90)
+			(at 196.85 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28246,7 +28434,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 184.15 44.196 90)
+			(at 194.31 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28255,7 +28443,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 181.61 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28264,7 +28452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28273,7 +28461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 46.99 0)
+			(at 191.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28998,6 +29186,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 162.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41d1e7ee-10da-4fff-becc-bcb5d19560ba")
+		(property "Reference" "C27"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 165.1 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 163.5252 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5993ebe-9ffa-4893-850e-cc5abd651307")
+		)
+		(pin "1"
+			(uuid "d294a61f-9390-413a-96ca-7b7a94e88d12")
+		)
+		(instances
+			(project "FishIoT"
+				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 209.55 344.17 180)
 		(unit 1)
@@ -29197,7 +29453,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 52.07 0)
+		(at 191.77 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29205,7 +29461,7 @@
 		(dnp no)
 		(uuid "43799d29-6868-4bd6-bb35-ec22a318bd19")
 		(property "Reference" "C10"
-			(at 184.15 50.8 0)
+			(at 194.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29214,7 +29470,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 184.15 54.61 0)
+			(at 194.31 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29223,7 +29479,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.5752 55.88 0)
+			(at 192.7352 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29232,7 +29488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29241,7 +29497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30382,7 +30638,7 @@
 	(symbol
 		(lib_name "+3V3_9")
 		(lib_id "power:+3V3")
-		(at 181.61 44.45 0)
+		(at 191.77 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30390,7 +30646,7 @@
 		(dnp no)
 		(uuid "52902343-f370-4e8b-a28f-bc602bf848c8")
 		(property "Reference" "#PWR025"
-			(at 181.61 48.26 0)
+			(at 191.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30399,7 +30655,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 40.64 0)
+			(at 193.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30407,7 +30663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 44.45 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30416,7 +30672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 44.45 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30425,7 +30681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 44.45 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32704,6 +32960,71 @@
 			(project "FishIoT"
 				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_26")
+		(lib_id "power:GND")
+		(at 162.56 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78866db4-20b1-4815-bed2-c3f43076438e")
+		(property "Reference" "#PWR07"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62fe646e-dddf-45b2-9e2f-23a2131c900f")
+		)
+		(instances
+			(project "FishIoT"
+				(path "/e45844f4-e44c-4eb2-a1e6-b7d409dde625"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -36244,7 +36565,7 @@
 	(symbol
 		(lib_name "GND_27")
 		(lib_id "power:GND")
-		(at 181.61 55.88 0)
+		(at 191.77 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36252,7 +36573,7 @@
 		(dnp no)
 		(uuid "c1ee06d4-467c-40a8-8c12-16a674735476")
 		(property "Reference" "#PWR026"
-			(at 181.61 62.23 0)
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36261,7 +36582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 59.69 0)
+			(at 191.77 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36269,7 +36590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 55.88 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36278,7 +36599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 55.88 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36287,7 +36608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 55.88 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39370,7 +39691,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 52.07 0)
+		(at 179.07 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39378,7 +39699,7 @@
 		(dnp no)
 		(uuid "f2f315a5-dba4-4698-9a25-e24010329aad")
 		(property "Reference" "C7"
-			(at 171.45 50.8 0)
+			(at 181.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39387,7 +39708,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 171.45 54.61 0)
+			(at 181.61 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39396,7 +39717,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.8752 55.88 0)
+			(at 180.0352 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39405,7 +39726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 52.07 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39414,7 +39735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 52.07 0)
+			(at 179.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
