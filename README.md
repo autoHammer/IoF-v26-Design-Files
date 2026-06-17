@@ -1,2 +1,2 @@
 # IoF-Design-Files
-![IoF Schematic](./FishIoT.jpg)
+![IoF Schematic](./FishIoT.svg)
